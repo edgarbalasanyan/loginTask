@@ -1,5 +1,7 @@
 @import "../sass/variables.scss";
-
+.title {
+  font-size: 3rem;
+}
 .hidden {
   display: none;
 }
@@ -23,4 +25,10 @@
   background-color: $color-white;
   gap: 1rem;
   margin: 0;
+}
+.input-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }

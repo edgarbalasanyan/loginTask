@@ -1,20 +1,11 @@
 @import "../../sass/variables.scss";
-
-.login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40rem;
-}
-.login-actions {
+@import "../../sass/typography.scss";
+.login-form {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-}
-.title {
-  font-size: 3rem;
 }
 .signin-options {
   width: 100%;
@@ -28,10 +19,7 @@
   color: $color-gray;
   font-size: 1.2rem;
 }
-.input-wrapper {
-  width: 100%;
-  position: relative;
-}
+
 .sign-up {
   font-size: 1.5rem;
   a {
@@ -39,14 +27,19 @@
     text-decoration: none;
   }
 }
-
+.forgot {
+  text-decoration: none;
+  font-size: 1.4rem;
+  align-self: flex-end;
+  color: $color-blue;
+}
 .password-toggle-icon {
+  font-size: 1.5rem;
   position: absolute;
   top: 2.5rem;
   right: 10px;
   transform: translateY(-50%);
   cursor: pointer;
-  background-color: gray;
 }
 
 .password-toggle-icon i {
